@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Testing files
+code/sample.ipynb
+code/first.py
