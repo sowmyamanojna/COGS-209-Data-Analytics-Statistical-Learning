@@ -1,0 +1,20 @@
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c c c c}
+	\hline
+	\hline
+	\textbf{Name} & \textbf{C}& \textbf{Decision Function} & \textbf{Degree} & \textbf{$\gamma$} & \textbf{Kernel} & \textbf{F1} & \textbf{Accuracy} \\
+	\hline
+	\hline
+	SVC\_SS & 10 & ovo & 3 & auto & poly & 0.84 & 0.85\\
+	SVC\_SS & 10 & ovr & 3 & auto & poly & 0.84 & 0.85\\
+	SVC & 10 & ovo & 3 & scale & poly & 0.82 & 0.83\\
+	SVC\_SS & 10 & ovo & 3 & scale & poly & 0.82 & 0.83\\
+	SVC\_SS & 10 & ovr & 3 & scale & poly & 0.82 & 0.83\\
+	\hline
+	\end{tabular}
+
+	\caption{Top 5 performances of the SVM Classifier model, sorted based on validation F1 scores, for different parameter values.}
+	\label{tab:svc}
+\end{table}
+

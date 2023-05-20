@@ -1,0 +1,53 @@
+\begin{thebibliography}{}
+
+\bibitem[Agarap, 2018]{agarap2018deep}
+Agarap, A.~F. (2018).
+\newblock Deep learning using rectified linear units (relu).
+\newblock {\em arXiv preprint arXiv:1803.08375}.
+
+\bibitem[Aminifar et~al., 2021]{aminifar2021monitoring}
+Aminifar, A., Rabbi, F., Pun, V. K.~I., and Lamo, Y. (2021).
+\newblock Monitoring motor activity data for detecting patients’ depression
+  using data augmentation and privacy-preserving distributed learning.
+\newblock In {\em 2021 43rd Annual International Conference of the IEEE
+  Engineering in Medicine \& Biology Society (EMBC)}, pages 2163--2169. IEEE.
+
+\bibitem[Cutler et~al., 2012]{cutler2012random}
+Cutler, A., Cutler, D.~R., and Stevens, J.~R. (2012).
+\newblock Random forests.
+\newblock {\em Ensemble machine learning: Methods and applications}, pages
+  157--175.
+
+\bibitem[Fan et~al., 2008]{fan2008liblinear}
+Fan, R.-E., Chang, K.-W., Hsieh, C.-J., Wang, X.-R., and Lin, C.-J. (2008).
+\newblock Liblinear: A library for large linear classification.
+\newblock {\em the Journal of machine Learning research}, 9:1871--1874.
+
+\bibitem[Fukushima, 1980]{fukushima1980neocognitron}
+Fukushima, K. (1980).
+\newblock Neocognitron: A self-organizing neural network model for a mechanism
+  of pattern recognition unaffected by shift in position.
+\newblock {\em Biological cybernetics}, 36(4):193--202.
+
+\bibitem[Garcia-Ceja et~al., 2018]{garcia2018depresjon}
+Garcia-Ceja, E., Riegler, M., Jakobsen, P., T{\o}rresen, J., Nordgreen, T.,
+  Oedegaard, K.~J., and Fasmer, O.~B. (2018).
+\newblock Depresjon: a motor activity database of depression episodes in
+  unipolar and bipolar patients.
+\newblock In {\em Proceedings of the 9th ACM multimedia systems conference},
+  pages 472--477.
+
+\bibitem[Marrie et~al., 2019]{marrie2019rising}
+Marrie, R., Walld, R., Bolton, J., Sareen, J., Walker, J., Patten, S., Singer,
+  A., Lix, L., Hitchon, C., El-Gabalawy, R., et~al. (2019).
+\newblock Rising incidence of psychiatric disorders before diagnosis of
+  immune-mediated inflammatory disease.
+\newblock {\em Epidemiology and psychiatric sciences}, 28(3):333--342.
+
+\bibitem[Nair and Hinton, 2010]{nair2010rectified}
+Nair, V. and Hinton, G.~E. (2010).
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In {\em Proceedings of the 27th international conference on machine
+  learning (ICML-10)}, pages 807--814.
+
+\end{thebibliography}
