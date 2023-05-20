@@ -131,3 +131,4 @@ dmypy.json
 # Testing files
 code/sample.ipynb
 code/first.py
+.DS_Store
