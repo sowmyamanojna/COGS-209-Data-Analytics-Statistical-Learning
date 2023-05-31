@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mini_project2.aux
+The style file: apalike.bst
+Database file #1: references.bib
+Warning--empty publisher in united1970comprehensive
+You've used 8 entries,
+            1935 wiz_defined-function locations,
+            531 strings with 5157 characters,
+and the built_in function-call counts, 3145 in all, are:
+= -- 307
+> -- 116
+< -- 6
++ -- 40
+- -- 38
+* -- 282
+:= -- 550
+add.period$ -- 23
+call.type$ -- 8
+change.case$ -- 58
+chr.to.int$ -- 8
+cite$ -- 9
+duplicate$ -- 112
+empty$ -- 229
+format.name$ -- 52
+if$ -- 603
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 42
+num.names$ -- 24
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 59
+quote$ -- 0
+skip$ -- 86
+stack$ -- 0
+substring$ -- 253
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 46
+warning$ -- 1
+while$ -- 28
+width$ -- 0
+write$ -- 103
+(There was 1 warning)

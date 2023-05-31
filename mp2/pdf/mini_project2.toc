@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Methods}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Data}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Description}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Preprocessing}{3}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Exploratory Data Analysis}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Dimensionality Reduction}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Clustering analysis}{4}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}DBSCAN}{4}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}K-Means}{4}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Comparitive Analysis}{5}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Results \& Comparisons}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Principal Component Analysis}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}UMAP Clustering}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}UMAP Visualization of Clusters}{6}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Comparative Cluster Analysis}{7}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}DBSCAN}{7}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}K-Means}{7}{subsubsection.3.3.2}%
+\contentsline {paragraph}{\numberline {3.3.2.1}Number of Clusters: 2}{7}{paragraph.3.3.2.1}%
+\contentsline {paragraph}{\numberline {3.3.2.2}Number of Clusters: 4}{7}{paragraph.3.3.2.2}%
+\contentsline {paragraph}{\numberline {3.3.2.3}Number of Clusters: 6}{7}{paragraph.3.3.2.3}%
+\contentsline {paragraph}{\numberline {3.3.2.4}Number of Clusters: 8}{8}{paragraph.3.3.2.4}%
+\contentsline {section}{\numberline {4}Result Visualization}{8}{section.4}%
+\contentsline {section}{\numberline {5}Discussion}{12}{section.5}%
+\contentsline {section}{References}{14}{section*.12}%
