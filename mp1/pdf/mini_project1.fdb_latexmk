@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex mini_project1"] 1683518567 "mini_project1.aux" "mini_project1.bbl" "mini_project1" 1683518571 0
+["bibtex mini_project1"] 1685316266 "mini_project1.aux" "mini_project1.bbl" "mini_project1" 1685316271 0
   "./references.bib" 1683500836 2684 9525eb30914fda5b55f9183f1fe7a018 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "mini_project1.aux" 1683518571 9194 02209ba2fb52a1d78dd45b547d74793b "lualatex"
+  "mini_project1.aux" 1685316270 9194 02209ba2fb52a1d78dd45b547d74793b "lualatex"
   (generated)
   "mini_project1.bbl"
   "mini_project1.blg"
   (rewritten before read)
-["lualatex"] 1683518567 "mini_project1.tex" "mini_project1.pdf" "mini_project1" 1683518571 0
+["lualatex"] 1685316267 "mini_project1.tex" "mini_project1.pdf" "mini_project1" 1685316271 0
   "/Users/sowmyamanojna/Library/Fonts/Cambria Bold.ttf" 1213311076 302200 33f182256bd86d84230deacc9009e3fc ""
   "/Users/sowmyamanojna/Library/Fonts/Cambria Italic.ttf" 1213311076 339308 6c6e3bfeb4d73d9fb503a2e19673dfd7 ""
   "/Users/sowmyamanojna/Library/Fonts/Cambria.ttf" 1213311076 927968 46288d6a44850f9ff11e641c61989f5f ""
@@ -18,7 +18,7 @@
   "/Users/sowmyamanojna/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1683409140 81837 4defb7a479a5fd058bb0732d84253c7a ""
   "/Users/sowmyamanojna/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1683409139 128410 e8b61c2a5e330cd0816cabbb13af398a ""
   "/Users/sowmyamanojna/Library/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1682972034 127327 0c22a2c7faa4e80fd8c3443dc8dd3208 ""
-  "/Users/sowmyamanojna/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1683409140 8477 2a19cfacacf7ead65f24c178c30c983a ""
+  "/Users/sowmyamanojna/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1685315879 8562 ee4c1d50d7041dad6bf1ab9e8ea29855 ""
   "/Users/sowmyamanojna/Library/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1682972456 366006 6a2bc6c93bc5deccebb57860a8a743c0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -194,11 +194,11 @@
   "images/score_corr.png" 1683460099 167242 43841c6973807c4528a600582f24cbcd ""
   "images/score_pair_plot.png" 1683412311 320507 f18f6599e312b76867998ddbc4cf2889 ""
   "images/top_20_models.png" 1683428168 36002 8c4d7303dfbf6d2c11f32435a808a361 ""
-  "mini_project1.aux" 1683518571 9194 02209ba2fb52a1d78dd45b547d74793b "lualatex"
-  "mini_project1.bbl" 1683518567 2408 1eeab933ec24d0e9e36d34630b6c69ce "bibtex mini_project1"
-  "mini_project1.out" 1683518571 3298 59689bcdd959a0a895be7c1fb156a7a8 "lualatex"
-  "mini_project1.tex" 1683518569 28561 a9b362c78ef40586c17c3e90128b5f0b ""
-  "mini_project1.toc" 1683518571 1933 2ff3ddb8991ad254f112d989a417905d "lualatex"
+  "mini_project1.aux" 1685316270 9194 02209ba2fb52a1d78dd45b547d74793b "lualatex"
+  "mini_project1.bbl" 1685316267 2408 1eeab933ec24d0e9e36d34630b6c69ce "bibtex mini_project1"
+  "mini_project1.out" 1685316270 3298 59689bcdd959a0a895be7c1fb156a7a8 "lualatex"
+  "mini_project1.tex" 1685316258 28561 a9b362c78ef40586c17c3e90128b5f0b ""
+  "mini_project1.toc" 1685316270 1933 2ff3ddb8991ad254f112d989a417905d "lualatex"
   "tables/knn.tex" 1683454712 573 c6c35d99f610977a5419f7713252ffa7 ""
   "tables/lr.tex" 1683454727 616 6dd31a8a23fc0b742176b44bf528f65c ""
   "tables/mlp.tex" 1683455488 757 cdab840a2445a0372b840a123e31bfae ""
