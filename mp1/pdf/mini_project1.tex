@@ -110,7 +110,7 @@ The actigraph data was measured from 23 patients who were diagnosed with depress
 	\item \texttt{madrs2}: MADRS score when measurement stopped
 \end{enumerate}
 
-\subsubsection{Preporcessing}
+\subsubsection{Preprocessing}
 \paragraph{Meta Data Imputation}
 The meta data provided with the actigraph data, had missing entries. The missing value imputations were performed using a K-Nearest Neighbors based imputation. The neighbors were weighted based on their distance for the imputation and points that were closer were given higher weightage. 
 
@@ -135,7 +135,7 @@ The meta data provided with the actigraph data, had missing entries. The missing
 % \textcolor{blue}{The codes written for this section - Meta Data Imputation, can be accessed in the notebook:\\ \texttt{1\_score\_data\_preprocessing.ipynb}}
 
 \paragraph{Actigraph Data Preprocessing}
-Actigraph data from each participant was obtained. The number of samples varied for each participant as the days across which the data was collected varied. For each participant, the data was split across days and only the data where motor activity was available for entire duration (1440 minutes in a day) was used for further analysis. In order to overcome the limitations caused due to the small sample size, each day was considered as a datapoint for all subsequent analysis. In addition to considering only days where motor activity was available for the whole duration, data from only the days with average activity greater than a threshold activity were considered. This is explained using graphics in \autoref{fig:act_condn1}.
+Actigraph data from each participant was obtained. The number of samples varied for each participant as the days across which the data was collected varied. For each participant, the data was split across days and only the data where motor activity was available for entire duration (1440 minutes in a day) was used for further analysis. In order to overcome the limitations caused due to the small sample size, each day was considered as a data point for all subsequent analysis. In addition to considering only days where motor activity was available for the whole duration, data from only the days with average activity greater than a threshold activity were considered. This is explained using graphics in \autoref{fig:act_condn1}.
 
 \begin{figure}[H]
 	\centering
@@ -191,7 +191,7 @@ In order to address all of our hypothesis, we used classification models from \t
 \end{itemize}
 
 \noi
-These models were trained on both un-normalized and normalized data. The parameter for each case that resulted in the best mean $F1$ score were saved and used on the validation dataset.\\
+These models were trained on both unnormalized and normalized data. The parameter for each case that resulted in the best mean $F1$ score were saved and used on the validation dataset.\\
 
 \noi
 The hyperparameters considered for each model (normal and standard scaled) is as follows:
@@ -251,8 +251,8 @@ The top 5 model, tuned with parameters obtained using Grid Search are as follows
 Interpretations based on the best model parameters:
 \begin{enumerate}
 	\itemsep0em
-	\item The best models have the \texttt{n\_neighbors} parameter value of 10. When this is increased or decreased, there is a small dip in the F1 score and accuracy. This implies that only the closest 10 neighbors are relevant to the datapoint of interest, thereby giving us an intuition about the distribution of the datapoints in our dataset.
-	\item All the top 5 models used the \texttt{weights} parameter of \texttt{distance} as opposed to \texttt{uniform}. This highlights that the relative distance between the datapoints is more informative than when compared to using a uniform weight distribution, when making a prediction.
+	\item The best models have the \texttt{n\_neighbors} parameter value of 10. When this is increased or decreased, there is a small dip in the F1 score and accuracy. This implies that only the closest 10 neighbors are relevant to the data point of interest, thereby giving us an intuition about the distribution of the data points in our dataset.
+	\item All the top 5 models used the \texttt{weights} parameter of \texttt{distance} as opposed to \texttt{uniform}. This highlights that the relative distance between the data points is more informative than when compared to using a uniform weight distribution, when making a prediction.
 \end{enumerate}
 
 \subsection{Support Vector Machines}
@@ -266,7 +266,7 @@ Interpretations based on the best model parameters:
 	\item The value of 10 for the \texttt{C}, inverse regularization parameter seemed to give raise to best predictions. The next best values of \texttt{C} reported by grid search are 50, followed by 0.5 and 0.1. This implies that the sweet spot for the regularization parameter is 10, and higher values would result in higher variance and lower values would result in higher bias.
 	\item All the 5 top models used a \texttt{degree} of 3. This in conjunction to the \texttt{kernel} being set to \texttt{poly} gives us an intuition that the best mapping from the actigraph space to the classification is a non-linear, polynomial mapping of degree 3.
 	\item The best models were robust to the \texttt{decision\_function\_shape} used. This is intuitive as all the models were trained on a binary-class classification task.
-	\item The parameter \texttt{gamma} is the inverse of the radius of influence of a single training sample. When large values of \texttt{gamma} is used, the radius of influence becomes small and results in overfitting. Similarly, when small values of \texttt{gamma} is used, the radius of influence becomes large and results in underfitting. The value of \texttt{auto} as opposed to \texttt{scale} best fits the dataset and implies that it is not essential to make \texttt{gamma} dependent on the variance of the dataset.
+	\item The parameter \texttt{gamma} is the inverse of the radius of influence of a single training sample. When large values of \texttt{gamma} is used, the radius of influence becomes small and results in over-fitting. Similarly, when small values of \texttt{gamma} is used, the radius of influence becomes large and results in under-fitting. The value of \texttt{auto} as opposed to \texttt{scale} best fits the dataset and implies that it is not essential to make \texttt{gamma} dependent on the variance of the dataset.
 \end{enumerate}
 
 \subsection{Multi-layered Perceptrons}
